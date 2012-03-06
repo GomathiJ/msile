@@ -411,9 +411,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="32"
-     inkscape:cx="7.7058317"
-     inkscape:cy="3.1766069"
+     inkscape:zoom="16"
+     inkscape:cx="9.2017343"
+     inkscape:cy="7.0600974"
      inkscape:current-layer="layer1"
      showgrid="true"
      inkscape:grid-bbox="true"
@@ -442,10 +442,6 @@
        visible="true"
        enabled="true"
        snapvisiblegridlinesonly="true" />
-    <sodipodi:guide
-       orientation="1,0"
-       position="1,4"
-       id="guide4058" />
   </sodipodi:namedview>
   <metadata
      id="metadata3128">
