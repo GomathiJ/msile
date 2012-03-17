@@ -1,6 +1,6 @@
 ﻿namespace msile
 {
-    partial class Form1
+    partial class PackageManagerForm
     {
         /// <summary>
         /// Required designer variable.
