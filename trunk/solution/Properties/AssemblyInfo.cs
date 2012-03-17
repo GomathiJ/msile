@@ -1,16 +1,17 @@
 ﻿using System.Reflection;
 using System.Runtime.CompilerServices;
 using System.Runtime.InteropServices;
+using System.Resources;
 
 // General Information about an assembly is controlled through the following 
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
 [assembly: AssemblyTitle("msile")]
-[assembly: AssemblyDescription("")]
+[assembly: AssemblyDescription("Package Manager for Windows")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("N/A")]
+[assembly: AssemblyCompany("Camilo Martin")]
 [assembly: AssemblyProduct("msile")]
-[assembly: AssemblyCopyright("Copyright © N/A 2012")]
+[assembly: AssemblyCopyright("GNU GPL v3")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 
@@ -32,5 +33,6 @@ using System.Runtime.InteropServices;
 // You can specify all the values or you can default the Build and Revision Numbers 
 // by using the '*' as shown below:
 // [assembly: AssemblyVersion("1.0.*")]
-[assembly: AssemblyVersion("1.0.0.0")]
-[assembly: AssemblyFileVersion("1.0.0.0")]
+[assembly: AssemblyVersion("0.0.0.0")]
+[assembly: AssemblyFileVersion("0.0.0.0")]
+[assembly: NeutralResourcesLanguageAttribute("en")]
