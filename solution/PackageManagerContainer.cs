@@ -7,7 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Windows.Forms;
 
-namespace msile
+namespace Msile
 {
     public partial class PackageManagerContainer : UserControl
     {

@@ -1,4 +1,4 @@
-﻿namespace msile
+﻿namespace Msile
 {
     partial class PackageManagerContainer
     {

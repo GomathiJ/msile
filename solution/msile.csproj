@@ -8,8 +8,8 @@
     <ProjectGuid>{574E5A72-7336-4434-9FEA-13882E998BC2}</ProjectGuid>
     <OutputType>WinExe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>msile</RootNamespace>
-    <AssemblyName>msile</AssemblyName>
+    <RootNamespace>Msile</RootNamespace>
+    <AssemblyName>Msile</AssemblyName>
     <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
     <TargetFrameworkProfile>Client</TargetFrameworkProfile>
     <FileAlignment>512</FileAlignment>
@@ -59,7 +59,7 @@
     </DocumentationFile>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>msile.Program</StartupObject>
+    <StartupObject>Msile.Program</StartupObject>
   </PropertyGroup>
   <PropertyGroup>
     <ApplicationIcon>msile.ico</ApplicationIcon>
@@ -105,6 +105,7 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>

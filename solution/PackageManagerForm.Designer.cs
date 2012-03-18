@@ -1,4 +1,4 @@
-﻿namespace msile
+﻿namespace Msile
 {
     partial class PackageManagerForm
     {
@@ -28,7 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.packageManagerContainer1 = new msile.PackageManagerContainer();
+            this.packageManagerContainer1 = new Msile.PackageManagerContainer();
             this.SuspendLayout();
             // 
             // packageManagerContainer1
