@@ -77,6 +77,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="PackageManagerContainer.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="PackageManagerContainer.Designer.cs">
+      <DependentUpon>PackageManagerContainer.cs</DependentUpon>
+    </Compile>
     <Compile Include="PackageManagerForm.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -85,6 +91,12 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="PackageManagerContainer.resx">
+      <DependentUpon>PackageManagerContainer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PackageManagerForm.resx">
+      <DependentUpon>PackageManagerForm.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>

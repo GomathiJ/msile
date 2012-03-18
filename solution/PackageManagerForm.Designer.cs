@@ -28,12 +28,32 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.components = new System.ComponentModel.Container();
+            this.packageManagerContainer1 = new msile.PackageManagerContainer();
+            this.SuspendLayout();
+            // 
+            // packageManagerContainer1
+            // 
+            this.packageManagerContainer1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.packageManagerContainer1.Location = new System.Drawing.Point(0, 0);
+            this.packageManagerContainer1.Name = "packageManagerContainer1";
+            this.packageManagerContainer1.Size = new System.Drawing.Size(632, 446);
+            this.packageManagerContainer1.TabIndex = 0;
+            // 
+            // PackageManagerForm
+            // 
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.ClientSize = new System.Drawing.Size(632, 446);
+            this.Controls.Add(this.packageManagerContainer1);
+            this.Name = "PackageManagerForm";
             this.Text = "Form1";
+            this.ResumeLayout(false);
+
         }
 
         #endregion
+
+        private PackageManagerContainer packageManagerContainer1;
     }
 }
 
