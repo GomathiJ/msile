@@ -7,7 +7,7 @@ FOR /F "TOKENS=*" %%D IN ('CD') DO SET PWD=%%D
 CD /D %~DP0
 
 REM Get the current revision of this working copy and echo it.
-FOR /F "TOKENS=4" %%I IN ('SVN info --revision HEAD ^| FIND /I "Last Changed Rev:"') DO SET REVISION=%%I
+FOR /F "TOKENS=2" %%I IN ('SVN info --revision HEAD ^| FIND /I "Revision:"') DO SET REVISION=%%I
 ECHO %REVISION%
 
 REM Return to previous working directory.
