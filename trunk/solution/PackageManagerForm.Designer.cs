@@ -47,6 +47,7 @@
             this.Controls.Add(this.packageManagerContainer1);
             this.Name = "PackageManagerForm";
             this.Text = "Form1";
+            this.Load += new System.EventHandler(this.LoadHandler);
             this.ResumeLayout(false);
 
         }
