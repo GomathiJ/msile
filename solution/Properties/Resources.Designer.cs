@@ -59,5 +59,14 @@ namespace Msile.Properties {
                 resourceCulture = value;
             }
         }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to {0} v{1}.{2} Alpha r{3}.
+        /// </summary>
+        internal static string PackageManagerFormTitleFormat {
+            get {
+                return ResourceManager.GetString("PackageManagerFormTitleFormat", resourceCulture);
+            }
+        }
     }
 }
