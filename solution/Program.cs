@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Windows.Forms;
 
+[assembly: CLSCompliant(true)]
 namespace Msile
 {
     static class Program
