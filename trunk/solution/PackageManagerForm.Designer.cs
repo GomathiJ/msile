@@ -28,26 +28,22 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(PackageManagerForm));
             this.packageManagerContainer1 = new Msile.PackageManagerContainer();
             this.SuspendLayout();
             // 
             // packageManagerContainer1
             // 
-            this.packageManagerContainer1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.packageManagerContainer1.Location = new System.Drawing.Point(0, 0);
+            resources.ApplyResources(this.packageManagerContainer1, "packageManagerContainer1");
             this.packageManagerContainer1.Name = "packageManagerContainer1";
-            this.packageManagerContainer1.Size = new System.Drawing.Size(632, 446);
-            this.packageManagerContainer1.TabIndex = 0;
             // 
             // PackageManagerForm
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            resources.ApplyResources(this, "$this");
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(632, 446);
             this.Controls.Add(this.packageManagerContainer1);
             this.Name = "PackageManagerForm";
-            this.Text = "Form1";
-            this.Load += new System.EventHandler(this.LoadHandler);
+            this.Load += new System.EventHandler(this.PackageManagerForm_Load);
             this.ResumeLayout(false);
 
         }
