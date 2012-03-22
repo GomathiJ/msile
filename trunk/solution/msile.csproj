@@ -100,6 +100,9 @@
     <EmbeddedResource Include="PackageManagerContainer.resx">
       <DependentUpon>PackageManagerContainer.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="PackageManagerForm.pt-BR.resx">
+      <DependentUpon>PackageManagerForm.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="PackageManagerForm.resx">
       <DependentUpon>PackageManagerForm.cs</DependentUpon>
     </EmbeddedResource>
@@ -113,6 +116,7 @@
       <DependentUpon>Resources.resx</DependentUpon>
       <DesignTime>True</DesignTime>
     </Compile>
+    <EmbeddedResource Include="Properties\Resources.pt-BR.resx" />
     <None Include="msile.snk" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
