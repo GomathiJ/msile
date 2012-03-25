@@ -6,6 +6,9 @@ using System.Windows.Forms;
 [assembly: CLSCompliant(true)]
 namespace Msile
 {
+    /// <summary>
+    /// Container for the application's entry point.
+    /// </summary>
     static class Program
     {
         /// <summary>

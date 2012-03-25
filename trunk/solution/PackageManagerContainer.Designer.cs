@@ -1,5 +1,8 @@
 ﻿namespace Msile
 {
+    /// <content>
+    /// Contains designer-generated code.
+    /// </content>
     partial class PackageManagerContainer
     {
         /// <summary> 

@@ -1,5 +1,8 @@
 ﻿namespace Msile
 {
+    /// <content>
+    /// Contains designer-generated code.
+    /// </content>
     partial class PackageManagerForm
     {
         /// <summary>
@@ -29,19 +32,19 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(PackageManagerForm));
-            this.packageManagerContainer1 = new Msile.PackageManagerContainer();
+            this.formContainer = new Msile.PackageManagerContainer();
             this.SuspendLayout();
             // 
-            // packageManagerContainer1
+            // formContainer
             // 
-            resources.ApplyResources(this.packageManagerContainer1, "packageManagerContainer1");
-            this.packageManagerContainer1.Name = "packageManagerContainer1";
+            resources.ApplyResources(this.formContainer, "formContainer");
+            this.formContainer.Name = "formContainer";
             // 
             // PackageManagerForm
             // 
             resources.ApplyResources(this, "$this");
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.Controls.Add(this.packageManagerContainer1);
+            this.Controls.Add(this.formContainer);
             this.Name = "PackageManagerForm";
             this.Load += new System.EventHandler(this.PackageManagerForm_Load);
             this.ResumeLayout(false);
@@ -50,7 +53,10 @@
 
         #endregion
 
-        private PackageManagerContainer packageManagerContainer1;
+        /// <summary>
+        /// Main container, used to group all the UI in the form.
+        /// </summary>
+        private PackageManagerContainer formContainer;
     }
 }
 

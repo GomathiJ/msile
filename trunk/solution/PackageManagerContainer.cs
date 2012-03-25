@@ -9,8 +9,14 @@ using System.Windows.Forms;
 
 namespace Msile
 {
+    /// <summary>
+    /// A general container for the PackageManager form.
+    /// </summary>
     public partial class PackageManagerContainer : UserControl
     {
+        /// <summary>
+        /// Creates a new instance of a PackageManagerContainer.
+        /// </summary>
         public PackageManagerContainer()
         {
             InitializeComponent();
