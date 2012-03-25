@@ -19,7 +19,7 @@ namespace Msile
         /// </summary>
         public PackageManagerContainer()
         {
-            InitializeComponent();
+            this.InitializeComponent();
         }
     }
 }
