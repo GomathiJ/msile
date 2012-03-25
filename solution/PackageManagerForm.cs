@@ -21,7 +21,7 @@ namespace Msile
         /// </summary>
         public PackageManagerForm()
         {
-            InitializeComponent();
+            this.InitializeComponent();
         }
 
         /// <summary>
@@ -31,7 +31,7 @@ namespace Msile
         /// <param name="e">Arguments.</param>
         private void PackageManagerForm_Load(object sender, EventArgs e)
         {
-            UpdateTitle();
+            this.UpdateTitle();
         }
 
         /// <summary>
