@@ -1,16 +1,18 @@
-﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Globalization;
-using System.Linq;
-using System.Reflection;
-using System.Text;
-using System.Windows.Forms;
+﻿
 
 namespace Msile
 {
+    using System;
+    using System.Collections.Generic;
+    using System.ComponentModel;
+    using System.Data;
+    using System.Drawing;
+    using System.Globalization;
+    using System.Linq;
+    using System.Reflection;
+    using System.Text;
+    using System.Windows.Forms;
+
     /// <summary>
     /// The main form, used to manage the packages.
     /// </summary>
