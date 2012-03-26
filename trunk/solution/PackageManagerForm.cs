@@ -17,7 +17,7 @@ namespace Msile
     public partial class PackageManagerForm : Form
     {
         /// <summary>
-        /// Creates a new instance of a PackageManagerForm.
+        /// Initializes a new instance of the <see cref="PackageManagerForm"/> class.
         /// </summary>
         public PackageManagerForm()
         {
@@ -25,10 +25,10 @@ namespace Msile
         }
 
         /// <summary>
-        /// Load event handler for the PackageManagerForm.
+        /// Load event handler for the <see cref="PackageManagerForm"/>.
         /// </summary>
         /// <param name="sender">Sender object.</param>
-        /// <param name="e">Arguments.</param>
+        /// <param name="e">Event arguments.</param>
         private void PackageManagerForm_Load(object sender, EventArgs e)
         {
             this.UpdateTitle();
@@ -42,8 +42,8 @@ namespace Msile
             Assembly assembly = Assembly.GetExecutingAssembly();
             Version version = assembly.GetName().Version;
             CultureInfo culture = CultureInfo.CurrentUICulture;
-            String format = Properties.Resources.PackageManagerFormTitleFormat;
-            this.Text = String.Format(culture, format, this.Text, version.Major, version.Minor, version.Build);
+            string format = Properties.Resources.PackageManagerFormTitleFormat;
+            this.Text = string.Format(culture, format, this.Text, version.Major, version.Minor, version.Build);
         }
     }
 }

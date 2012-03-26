@@ -15,7 +15,7 @@ namespace Msile
     public partial class PackageManagerContainer : UserControl
     {
         /// <summary>
-        /// Creates a new instance of a PackageManagerContainer.
+        /// Initializes a new instance of the <see cref="PackageManagerContainer" /> class.
         /// </summary>
         public PackageManagerContainer()
         {
