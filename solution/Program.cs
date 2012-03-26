@@ -1,12 +1,18 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Windows.Forms;
+﻿//-----------------------------------------------------------------------
+// <copyright file="Program.cs" company="Camilo Martin">
+//     Licensed under the GNU GPL v3. 
+// </copyright>
+//-----------------------------------------------------------------------
 
-[assembly: CLSCompliant(true)]
+[assembly: System.CLSCompliant(true)]
 
 namespace Msile
 {
+    using System;
+    using System.Collections.Generic;
+    using System.Linq;
+    using System.Windows.Forms;
+
     /// <summary>
     /// Container for the application's entry point.
     /// </summary>

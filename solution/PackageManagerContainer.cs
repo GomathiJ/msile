@@ -1,4 +1,8 @@
-﻿
+﻿//-----------------------------------------------------------------------
+// <copyright file="PackageManagerContainer.cs" company="Camilo Martin">
+//     Licensed under the GNU GPL v3. 
+// </copyright>
+//-----------------------------------------------------------------------
 
 namespace Msile
 {
