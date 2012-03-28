@@ -1,11 +1,13 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
+<!-- Please justify everything you add here. -->
 <Dictionary>
   <Words>
     <Unrecognized>
       <Word></Word>
     </Unrecognized>
     <Recognized>
-      <Word>msile</Word>
+      <Word>msile</Word>     <!-- Project name.      -->
+      <Word>skinnable</Word> <!-- Programming lingo. -->
     </Recognized>
     <Deprecated>
       <Term PreferredAlternate=""></Term>
