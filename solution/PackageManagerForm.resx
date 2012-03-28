@@ -136,7 +136,7 @@
     <value>formContainer</value>
   </data>
   <data name="&gt;&gt;formContainer.Type" xml:space="preserve">
-    <value>Msile.PackageManagerContainer, Msile, Version=0.1.30.0, Culture=neutral, PublicKeyToken=51aa0f877db95bc8</value>
+    <value>Msile.PackageManagerContainer, Msile, Version=0.1.40.0, Culture=neutral, PublicKeyToken=51aa0f877db95bc8</value>
   </data>
   <data name="&gt;&gt;formContainer.Parent" xml:space="preserve">
     <value>$this</value>
