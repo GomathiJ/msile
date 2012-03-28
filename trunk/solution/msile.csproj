@@ -97,6 +97,9 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SkinnableSplitContainer.cs">
+      <SubType>Component</SubType>
+    </Compile>
     <EmbeddedResource Include="PackageManagerContainer.resx">
       <DependentUpon>PackageManagerContainer.cs</DependentUpon>
     </EmbeddedResource>
