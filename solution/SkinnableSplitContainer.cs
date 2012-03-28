@@ -28,6 +28,36 @@ namespace Msile
             g.FillRegion(Brushes.Lime, new Region(this.getSplitterTailRectangle()));
         }
 
+        protected override void OnMouseUp(MouseEventArgs e)
+        {
+            // This method is intentionally blank to cancel the default behavior.
+        }
+
+        protected override void OnMouseMove(MouseEventArgs e)
+        {
+            base.OnMouseMove(e);
+            // Only events with the left button matters to us.
+            if (e.Button.Equals(MouseButtons.Left))
+            {
+                if (this.Orientation.Equals(Orientation.Vertical))
+                {
+                    // Only move the splitter if the mouse is within the appropriate bounds.
+                    if (e.X > 0 && e.X < this.Width)
+                    {
+                        this.SplitterDistance = e.X;
+                    }
+                }
+                else
+                {
+                    // Only move the splitter if the mouse is within the appropriate bounds
+                    if (e.Y > 0 && e.Y < this.Height)
+                    {
+                        this.SplitterDistance = e.Y;
+                    }
+                }
+            }
+        }
+
         private Rectangle getSplitterHeadRectangle()
         {
             Rectangle result = SplitterRectangle;
