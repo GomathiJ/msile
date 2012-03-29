@@ -18,6 +18,11 @@ namespace Msile
     /// </summary>
     public class SkinnableSplitContainer : SplitContainer
     {
+        /// <summary>
+        /// Overriden OnPaint method.
+        /// </summary>
+        /// <param name="e">Paint Event Arguments.</param>
+        /// <remarks>This override does not call the base method.</remarks>
         protected override void OnPaint(PaintEventArgs e)
         {
             e = Helpers.ThrowExceptionIfNull(e);
@@ -30,11 +35,20 @@ namespace Msile
             g.FillRectangle(Brushes.Lime, this.GetSplitterTailRectangle());
         }
 
+        /// <summary>
+        /// Overriden OnMouseUp method.
+        /// </summary>
+        /// <param name="e">Mouse Event Arguments.</param>
+        /// <remarks>This method is intentionally blank to cancel the default behavior.</remarks>
         protected override void OnMouseUp(MouseEventArgs e)
         {
             // This method is intentionally blank to cancel the default behavior.
         }
 
+        /// <summary>
+        /// Overriden OnMouseMove method.
+        /// </summary>
+        /// <param name="e">Mouse Event Arguments.</param>
         protected override void OnMouseMove(MouseEventArgs e)
         {
             base.OnMouseMove(e);
@@ -63,6 +77,10 @@ namespace Msile
             }
         }
 
+        /// <summary>
+        /// Gets the rectangle of the splitter representing its "head". Intended for theming support.
+        /// </summary>
+        /// <returns>The "head" rectangle of the splitter.</returns>
         private Rectangle GetSplitterHeadRectangle()
         {
             Rectangle result = SplitterRectangle;
@@ -78,6 +96,10 @@ namespace Msile
             return result;
         }
 
+        /// <summary>
+        /// Gets the rectangle of the splitter representing its "body". Intended for theming support.
+        /// </summary>
+        /// <returns>The "body" rectangle of the splitter.</returns>
         private Rectangle GetSplitterBodyRectangle()
         {
             Rectangle result = SplitterRectangle;
@@ -95,6 +117,10 @@ namespace Msile
             return result;
         }
 
+        /// <summary>
+        /// Gets the rectangle of the splitter representing its "tail". Intended for theming support.
+        /// </summary>
+        /// <returns>The "tail" rectangle of the splitter.</returns>
         private Rectangle GetSplitterTailRectangle()
         {
             Rectangle result = SplitterRectangle;
