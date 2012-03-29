@@ -20,7 +20,7 @@ namespace Msile
     {
         protected override void OnPaint(PaintEventArgs e)
         {
-            e = Helpers.ThrowExeptionIfNull(e);
+            e = Helpers.ThrowExceptionIfNull(e);
 
             Graphics g = e.Graphics;
 
@@ -39,7 +39,7 @@ namespace Msile
         {
             base.OnMouseMove(e);
 
-            e = Helpers.ThrowExeptionIfNull(e);
+            e = Helpers.ThrowExceptionIfNull(e);
 
             // Only events with the left button matters to us.
             if (e.Button.Equals(MouseButtons.Left))
