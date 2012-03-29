@@ -21,7 +21,6 @@ namespace Msile
     /// </remarks>
     public static class Helpers
     {
-
         /// <summary>
         /// Checks if a generic object is null, throws an exception if it is, and returns it if it's not.
         /// </summary>
@@ -37,6 +36,7 @@ namespace Msile
             {
                 throw new ArgumentNullException("input");
             }
+
             return input;
         }
     }
