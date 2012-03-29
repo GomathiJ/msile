@@ -35,7 +35,7 @@ namespace Msile
         {
             if (input == null)
             {
-                throw new ArgumentNullException("The argument to this function was null.");
+                throw new ArgumentNullException("input");
             }
             return input;
         }
