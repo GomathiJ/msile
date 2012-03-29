@@ -25,9 +25,9 @@ namespace Msile
             Graphics g = e.Graphics;
 
             // Just to show that it works.
-            g.FillRectangle(Brushes.Blue, this.getSplitterBodyRectangle());
-            g.FillRectangle(Brushes.Red, this.getSplitterHeadRectangle());
-            g.FillRectangle(Brushes.Lime, this.getSplitterTailRectangle());
+            g.FillRectangle(Brushes.Blue, this.GetSplitterBodyRectangle());
+            g.FillRectangle(Brushes.Red, this.GetSplitterHeadRectangle());
+            g.FillRectangle(Brushes.Lime, this.GetSplitterTailRectangle());
         }
 
         protected override void OnMouseUp(MouseEventArgs e)
@@ -63,7 +63,7 @@ namespace Msile
             }
         }
 
-        private Rectangle getSplitterHeadRectangle()
+        private Rectangle GetSplitterHeadRectangle()
         {
             Rectangle result = SplitterRectangle;
             if (this.Orientation == Orientation.Horizontal)
@@ -74,10 +74,11 @@ namespace Msile
             {
                 result.Height = result.Width;
             }
+
             return result;
         }
 
-        private Rectangle getSplitterBodyRectangle()
+        private Rectangle GetSplitterBodyRectangle()
         {
             Rectangle result = SplitterRectangle;
             if (this.Orientation == Orientation.Horizontal)
@@ -90,10 +91,11 @@ namespace Msile
                 result.Y = result.Width;
                 result.Height -= result.Width * 2;
             }
+
             return result;
         }
 
-        private Rectangle getSplitterTailRectangle()
+        private Rectangle GetSplitterTailRectangle()
         {
             Rectangle result = SplitterRectangle;
             if (this.Orientation == Orientation.Horizontal)
@@ -106,6 +108,7 @@ namespace Msile
                 result.Y = result.Height - result.Width;
                 result.Height = result.Width;
             }
+
             return result;
         }
     }

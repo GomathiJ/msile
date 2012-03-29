@@ -30,6 +30,16 @@ namespace Msile
             this.InitializeComponent();
         }
 
+        protected override CreateParams CreateParams
+        {
+            get
+            {
+                CreateParams cp = base.CreateParams;
+                cp.ExStyle |= Constants.WS_EX_COMPOSITED;
+                return cp;
+            }
+        }
+
         /// <summary>
         /// Load event handler for the <see cref="PackageManagerForm"/>.
         /// </summary>
@@ -50,16 +60,6 @@ namespace Msile
             CultureInfo culture = CultureInfo.CurrentUICulture;
             string format = Properties.Resources.PackageManagerFormTitleFormat;
             this.Text = string.Format(culture, format, this.Text, version.Major, version.Minor, version.Build);
-        }
-
-        protected override CreateParams CreateParams
-        {
-            get
-            {
-                CreateParams cp = base.CreateParams;
-                cp.ExStyle |= Constants.WS_EX_COMPOSITED;
-                return cp;
-            }
         }
     }
 }
