@@ -31,7 +31,7 @@ namespace Msile
         /// This is useful to bypass CA1062 in cases where you know it's not null, such as overriden control event handlers.
         /// </remarks>
         /// <returns>The unaltered input, if not null.</returns>
-        public static T ThrowExeptionIfNull<T>(T input)
+        public static T ThrowExceptionIfNull<T>(T input)
         {
             if (input == null)
             {
