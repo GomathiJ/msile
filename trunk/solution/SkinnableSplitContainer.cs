@@ -25,9 +25,9 @@ namespace Msile
             Graphics g = e.Graphics;
 
             // Just to show that it works.
-            g.FillRegion(Brushes.Blue, new Region(this.getSplitterBodyRectangle()));
-            g.FillRegion(Brushes.Red, new Region(this.getSplitterHeadRectangle()));
-            g.FillRegion(Brushes.Lime, new Region(this.getSplitterTailRectangle()));
+            g.FillRectangle(Brushes.Blue, this.getSplitterBodyRectangle());
+            g.FillRectangle(Brushes.Red, this.getSplitterHeadRectangle());
+            g.FillRectangle(Brushes.Lime, this.getSplitterTailRectangle());
         }
 
         protected override void OnMouseUp(MouseEventArgs e)
