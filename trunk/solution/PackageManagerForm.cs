@@ -30,6 +30,10 @@ namespace Msile
             this.InitializeComponent();
         }
 
+        /// <summary>
+        /// Overriden CreateParams method.
+        /// </summary>
+        /// <remarks>Sets up compositing; double buffers itself and all child controls.</remarks>
         protected override CreateParams CreateParams
         {
             get
