@@ -1,4 +1,5 @@
 #summary Changelog.
+#labels Developers
 
 = Changelog =
 

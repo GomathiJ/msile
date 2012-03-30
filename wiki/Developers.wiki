@@ -1,5 +1,5 @@
 #summary Main page for developers.
-#labels Featured
+#labels Featured, Developers
 
 = Developers =
 
