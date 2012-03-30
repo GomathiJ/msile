@@ -1,7 +1,10 @@
 #summary Main page of the wiki.
+#labels Featured
 
 = Main Page =
 
 This is the main page of the `msile` project.
 
 From here you can navigate through the rest of the wiki.
+
+You can also view [http://code.google.com/p/msile/w/list a list of all wiki pages].
