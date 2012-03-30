@@ -1,0 +1,7 @@
+#summary Main page of the wiki.
+
+= Main Page =
+
+This is the main page of the `msile` project.
+
+From here you can navigate through the rest of the wiki.
