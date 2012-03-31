@@ -2,6 +2,9 @@
 REM Well yes, I do hate batch files. They are truly ugly.
 REM I'm using horrible SCREAMING CAPS in batch because what is wrong should look wrong.
 
+REM We need the third parameter or we'll update every AssemblyInfo.cs in the whole computer!
+IF [%3]==[] GOTO EOF
+
 REM Store current directory, go to where the script is.
 FOR /F "TOKENS=*" %%D IN ('CD') DO SET PWD=%%D
 CD /D %~DP0
@@ -24,3 +27,5 @@ DEL sed*
 
 REM Return to previous working directory.
 CD /D %PWD%
+
+:EOF
