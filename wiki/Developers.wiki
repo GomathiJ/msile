@@ -16,3 +16,7 @@ Here you'll find information about what's planned.
 == [Changelog] ==
 
 Here you can find about the current version and how it's going.
+
+== [DevelopmentEnvironment Development Environment] ==
+
+Here you can find about how to work with the code.
