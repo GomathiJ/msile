@@ -14,21 +14,23 @@ From here you can navigate through the rest of the wiki.
 You can also view [http://code.google.com/p/msile/w/list a list of all wiki pages].
 <br />
 ----
-</td></tr></thead><tbody><tr><td width="50%">
+</td></tr></thead><tbody><tr><td width="50%" valign="top">
 == [Developers] ==
 
 Please refer to the [Developers] page for information about the current development status.
-</td><td width="50%">
+
+If you want to work with the code, take a look at the recommended [DevelopmentEnvironment development environment].
+</td><td width="50%" valign="top">
 == License ==
 
 The [http://code.google.com/p/msile/source/checkout source code] is licensed as [http://www.gnu.org/licenses/gpl.html GNU GPL v3].
 
 The wiki content and documentation are licensed as [http://creativecommons.org/licenses/by-sa/3.0/ CC 3.0 BY-SA].
-</td></tr><tr><td width="50%">
+</td></tr><tr><td width="50%" valign="top">
 == [Roadmap] ==
 
 [Roadmap] under construction.
-</td><td width="50%">
+</td><td width="50%" valign="top">
 == [Changelog] ==
 
 [Changelog] under construction.
