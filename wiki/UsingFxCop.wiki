@@ -35,7 +35,7 @@ Read [http://www.codeproject.com/Articles/78599/How-to-Use-FxCop this post].
 
 == Exceptions ==
 
-You can add exceptions to FxCop for rules that in _*certain specific occasions*_ are wrong. Use the file called `GlobalSuppressions.cs`.
+You can add exceptions to !FxCop for rules that in _*certain specific occasions*_ are wrong. Use the file called `GlobalSuppressions.cs`.
 
 Again, [#What_rules_are_enabled/disabled? no rule will be disabled project-wide].
 
