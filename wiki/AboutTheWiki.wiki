@@ -1,5 +1,5 @@
 #summary Information about the Wiki itself.
-#labels Wiki-Developers
+#labels WikiDevelopers
 
 = About The Wiki =
 

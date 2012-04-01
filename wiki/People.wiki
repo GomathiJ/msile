@@ -1,5 +1,5 @@
 #summary The people who make this project.
-#labels End-Users
+#labels EndUsers
 
 = People Behind the Project =
 

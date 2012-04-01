@@ -1,5 +1,5 @@
 #summary Main page of the wiki.
-#labels Featured,End-Users,Developers
+#labels Featured,EndUsers,Developers
 <wiki:comment>
 I know the code on this wiki page doesn't look very neat. Using a table sucks. But I want to have columns! :(
 </wiki:comment>

@@ -1,5 +1,5 @@
 #summary Contact the authors.
-#labels End-Users,Featured
+#labels EndUsers,Featured
 
 = Contact the Authors =
 
