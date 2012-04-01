@@ -1,4 +1,4 @@
-#summary One-sentence summary of this page.
+#summary Contact the authors.
 #labels End-Users,Featured
 
 = Contact the Authors =
