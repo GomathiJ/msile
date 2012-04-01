@@ -1,0 +1,28 @@
+#summary Information about the Wiki itself.
+#labels Wiki-Developers
+
+= About The Wiki =
+
+This page describes anything specific to the wiki.
+
+<wiki:toc />
+
+----
+
+== Wiki Guidelines and Conventions ==
+
+Go to the [WikiGuidelines Wiki Guidelines] page for information about which guidelines and conventions are followed in the creation of the wiki.
+
+== Writing Wiki Pages ==
+
+Refer to the [WikiDevelopment Wiki Development] page for info about writing wiki pages.
+
+== Translating Wiki Pages ==
+
+Refer to the [WikiTranslating Wiki Translating] page for info about translating wiki pages.
+
+== Wiki License ==
+
+The wiki is licensed as [http://creativecommons.org/licenses/by-sa/3.0/ Creative Commons 3.0 BY-SA]. Refer to that license to know what you can do with it.
+
+Basically that license means you can post anything from this wiki elsewhere as long as you are doing so for free and you link to the wiki's [MainPage Main Page] or the [http://code.google.com/p/msile/ Project Home].
