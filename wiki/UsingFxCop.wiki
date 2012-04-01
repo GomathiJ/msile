@@ -1,0 +1,42 @@
+#summary FxCop usage in this project.
+#labels Developers
+
+= Using !FxCop =
+
+This page describes !FxCop usage in this project.
+
+You may also want to take a look at [StyleCopUsage StyleCop Usage].
+
+<wiki:toc />
+
+----
+
+== Why use !FxCop? ==
+
+Because it checks for a lot of errors automatically and we can (almost) ensure very bad code is not being written, without having to worry too much about checking everything ourselves. Also helps cope up with those ignorant beginners (such as me).
+
+== What is !FxCop? ==
+
+[http://lmgtfy.com/?q=what+is+fxcop%3F Google it].
+
+== How do I use it? ==
+
+=== <font size="2">I *have* Visual Studio 2010 *Premium* or *Professional*</font> ===
+
+Right click the project in the solution browser and click on "Code Analysis".
+
+=== <font size="2">I *don't have* Visual Studio 2010 *Premium* or *Professional*</font> ===
+
+Read [http://www.codeproject.com/Articles/78599/How-to-Use-FxCop this post].
+
+== What rules are enabled/disabled? ==
+
+*Every rule is to be used, i.e., `Microsoft all rules`.*
+
+== Exceptions ==
+
+You can add exceptions to FxCop for rules that in _*certain specific occasions*_ are wrong. Use the file called `GlobalSuppressions.cs`.
+
+Again, [#What_rules_are_enabled/disabled? no rule will be disabled project-wide].
+
+For justifiable exceptions that will be tolerated (and why), see [FxCopExceptions FxCop Exceptions].
