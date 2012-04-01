@@ -1,0 +1,22 @@
+#summary Coding guidelines and standards.
+#labels Developers
+
+= Development Guidelines =
+
+This page has details on which guidelines and standards are followed.
+
+<wiki:toc />
+
+----
+
+== !FxCop ==
+
+Stable code must not raise any of !FxCop's warnings, and all should be used. Refer to !FxCop [UsingFxCop usage] and [FxCopExceptions exceptions].
+
+== !StyleCop ==
+
+Stable code must not raise any of !FxCop's warnings, and all should be used. Refer to !StyleCop [UsingStyleCop usage] and [StyleCopExceptions exceptions].
+
+== Commit Hooks ==
+
+This project's [CommitHooks commit hooks] must be used or simulated by hand.
