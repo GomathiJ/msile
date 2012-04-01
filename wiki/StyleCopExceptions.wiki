@@ -30,7 +30,7 @@ Also, normally we really don't care about readability of files that won't be rea
 === <font size="2">How to suppress auto-generated violations</font> ===
 Uncheck `Analyze designer files` in !StyleCop settings.
 
-Actually you don't need this because I've already done it and StyleCop generates a settings file.
+Actually you don't need this because I've already done it and !StyleCop generates a settings file.
 
 In certain auto-generated files (whose name does not have certain recognized suffixes), you need to put this XML header (at the top of the file):
 
