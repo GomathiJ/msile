@@ -15,7 +15,7 @@ Stable code must not raise any of !FxCop's warnings, and all should be used. Ref
 
 == !StyleCop ==
 
-Stable code must not raise any of !FxCop's warnings, and all should be used. Refer to !StyleCop [UsingStyleCop usage] and [StyleCopExceptions exceptions].
+Stable code must not raise any of !StyleCop's warnings, and all should be used. Refer to !StyleCop [UsingStyleCop usage] and [StyleCopExceptions exceptions].
 
 == Commit Hooks ==
 
