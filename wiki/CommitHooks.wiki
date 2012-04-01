@@ -1,4 +1,5 @@
 #summary Lists commit hooks used and what to do manually.
+#labels Developers
 
 <table width="100%"><tr><td width="48%" valign="top">
 = Commit Hooks =
@@ -23,7 +24,7 @@ This is a pre-commit hook.
 
 What this does is to check for whatever `AssemblyInfo.cs` file below your current directory, and update its revision number to *the current revision number + 1*.
 
-If you do not want to run it, before commiting code in the trunk or a branch, update the relevant AssemblyInfo.cs file to use *the current SVN revision number + 1* as the *third assembly and file version*.
+If you do not want to run it, before commiting code in the trunk or a branch, update the relevant `AssemblyInfo.cs` file to use *the current SVN revision number + 1* as the *third assembly and file version*.
 
 === <font size="2">Example</font> ===
 
