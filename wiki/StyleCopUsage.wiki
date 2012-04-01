@@ -1,0 +1,38 @@
+#summary StyleCop usage in this project.
+#labels Developers
+
+= Using !StyleCop =
+
+This page describes !StyleCop usage in this project.
+
+You may also want to take a look at [FxCopUsage FxCop Usage].
+
+<wiki:toc />
+
+----
+
+== Why use !StyleCop? ==
+
+Because it checks for a lot of style imperfections automatically and we can (almost) ensure bad code is not being written, without having to worry too much about checking everything ourselves. Also helps cope up with those ignorant beginners (such as me).
+
+== What is !StyleCop? ==
+
+[http://lmgtfy.com/?q=what+is+stylecop%3F Google it].
+
+== How do I use it? ==
+
+First, [http://stylecop.codeplex.com/releases download] and install.
+
+Then right click the project in the solution browser and click on "Run !StyleCop".
+
+== What rules are enabled/disabled? ==
+
+*Every rule is to be used.*
+
+== Exceptions ==
+
+You can add exceptions to !StyleCop for rules that in _*certain specific occasions*_ are wrong.
+
+Again, [#What_rules_are_enabled/disabled? no rule will be disabled project-wide].
+
+For justifiable exceptions that will be tolerated (and why), see [StyleCopExceptions StyleCop Exceptions].
