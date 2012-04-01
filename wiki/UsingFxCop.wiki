@@ -5,7 +5,7 @@
 
 This page describes !FxCop usage in this project.
 
-You may also want to take a look at [StyleCopUsage StyleCop Usage].
+You may also want to take a look at [UsingStyleCop Using StyleCop].
 
 <wiki:toc />
 
