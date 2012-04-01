@@ -1,0 +1,6 @@
+#summary The people who make this project.
+#labels End-Users
+
+= People Behind the Project =
+
+There is only one person in charge of this project at the time, me. Check [http://about.me/camilomartin my "about me" page].
