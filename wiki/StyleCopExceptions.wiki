@@ -1,0 +1,35 @@
+#summary Exceptions to StyleCop's rules.
+#labels Developers
+
+= !StyleCop Exceptions =
+
+This page lists exceptions to !StyleCop rules, and justifications.
+
+If you think you have a reason for another exception, feel free to add a comment here, or better yet, [http://about.me/camilomartin send me an e-mail].
+
+You may also want to check [FxCopExceptions FxCop Exceptions].
+
+<wiki:toc />
+
+----
+
+== `SA1310:FieldNamesMustNotContainUnderscore` ==
+
+=== <font size="2">Where to suppress</font> ===
+
+In constants named after Windows API constants. 
+
+You know, those horrible ones that have horrible names and that get used in native interop. [http://code.google.com/p/msile/source/browse/trunk/solution/Constants.cs#30 Example]: `WS_EX_COMPOSITED`.
+
+=== <font size="2">Why to suppress</font> ===
+
+Because keeping the name the way it is helps finding the original documentation for the constant.
+
+Check [http://stackoverflow.com/questions/9917942/naming-windows-api-constants-in-c-sharp this thread on StackOverflow], there is consensus.
+
+=== <font size="2">How to suppress</font> ===
+
+Decorate the class that has the constant with an attribute. Example:
+
+<code language="cs">[SuppressMessage("Microsoft.StyleCop.CSharp.NamingRules", "SA1310:FieldNamesMustNotContainUnderscore", 
+    Justification = "WinAPI constants. See this discussion: http://stackoverflow.com/questions/9917942/.")]</code>
