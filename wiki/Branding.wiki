@@ -1,0 +1,59 @@
+#summary Branding information.
+#labels EndUsers,Developers
+
+= Branding =
+
+This page deals with the branding of the project.
+
+<wiki:toc />
+
+----
+
+== Name ==
+
+The name of the project is `msile`.
+
+=== <font size="2">Etymology</font> ===
+
+It is a portmanteau that blends "`msi`" (the file extension for Microsoft Installer packages) with "missile".
+
+=== <font size="2">Pronunciation</font> ===
+
+It is pronounced "missile".
+
+=== <font size="2">Casing</font> ===
+
+It is lowercase, as in "msile" (does not begin with a capital letter).
+
+This is because:
+
+  # `.msi` is a file extension; file extensions are most commonly lowercase.
+  # If it was "MSIle", it would be a source of confusion because `I` and `l` are too similar.
+  # If it was "MSILE", it would look like the code is in `BASIC`, `FORTRAN`, `COBOL`, or even worse, `C++`.
+  # It goes against the norm, which is good for branding.
+  # I like the way it looks.
+  # _Language purists can go “look for the unmatched double-quotes._
+
+<table width="100%"><tr><td>
+== Logo and Icon ==
+
+The icon (and current logo) of the project is that cute missile.
+</td><td rowspan="4" width="65%" align="right">
+<a href="http://fav.me/d4rw6vq"><img src="http://fc02.deviantart.net/fs70/i/2012/066/2/2/missile_icon_by_camilomm-d4rw6vq.png" /></a>
+</td></tr><tr><td>
+=== <font size="2">Can I use it too?</font> ===
+
+Sure, as long as you follow the license terms.
+
+Click on the image to go to a page where you can download it.
+</td></tr><tr><td>
+=== <font size="2">Will it change?</font> ===
+
+Probably the logo will, at some point. The icon will stay.
+</td></tr><tr><td>
+=== <font size="2">Will a missile represent the application?</font> ===
+
+Yes.
+
+Of course the application will not look like a missile nor anything, but yes, it will use missiles (with the same look and colors) in other places.
+</td></tr></table>
