@@ -1,0 +1,201 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Msile</name>
+    </assembly>
+    <members>
+        <member name="T:Msile.PackageManagerForm">
+            <content>
+            Contains designer-generated code.
+            </content>
+            <summary>
+            The main form, used to manage the packages.
+            </summary>
+        </member>
+        <member name="F:Msile.PackageManagerForm.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:Msile.PackageManagerForm.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:Msile.PackageManagerForm.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:Msile.PackageManagerForm.formContainer">
+            <summary>
+            Main container, used to group all the UI in the form.
+            </summary>
+        </member>
+        <member name="M:Msile.PackageManagerForm.#ctor">
+            <summary>
+            Initializes a new instance of the <see cref="T:Msile.PackageManagerForm"/> class.
+            </summary>
+        </member>
+        <member name="M:Msile.PackageManagerForm.PackageManagerForm_Load(System.Object,System.EventArgs)">
+            <summary>
+            Load event handler for the <see cref="T:Msile.PackageManagerForm"/>.
+            </summary>
+            <param name="sender">Sender object.</param>
+            <param name="e">Event arguments.</param>
+        </member>
+        <member name="M:Msile.PackageManagerForm.UpdateTitle">
+            <summary>
+            Updates the form's title, using a localized representation of the current name and version of the program.
+            </summary>
+        </member>
+        <member name="P:Msile.PackageManagerForm.CreateParams">
+            <summary>
+            Overriden CreateParams method.
+            </summary>
+            <remarks>Sets up compositing; double buffers itself and all child controls.</remarks>
+        </member>
+        <member name="T:Msile.Properties.Resources">
+            <summary>
+              A strongly-typed resource class, for looking up localized strings, etc.
+            </summary>
+        </member>
+        <member name="P:Msile.Properties.Resources.ResourceManager">
+            <summary>
+              Returns the cached ResourceManager instance used by this class.
+            </summary>
+        </member>
+        <member name="P:Msile.Properties.Resources.Culture">
+            <summary>
+              Overrides the current thread's CurrentUICulture property for all
+              resource lookups using this strongly typed resource class.
+            </summary>
+        </member>
+        <member name="P:Msile.Properties.Resources.PackageManagerFormTitleFormat">
+            <summary>
+              Looks up a localized string similar to {0} v{1}.{2} Alpha r{3}.
+            </summary>
+        </member>
+        <member name="T:Msile.PackageManagerContainer">
+            <summary>
+            A general container for the PackageManager form.
+            </summary>
+            <content>
+            Contains designer-generated code.
+            </content>
+        </member>
+        <member name="M:Msile.PackageManagerContainer.#ctor">
+            <summary>
+            Initializes a new instance of the <see cref="T:Msile.PackageManagerContainer"/> class.
+            </summary>
+        </member>
+        <member name="F:Msile.PackageManagerContainer.components">
+            <summary> 
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:Msile.PackageManagerContainer.Dispose(System.Boolean)">
+            <summary> 
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:Msile.PackageManagerContainer.InitializeComponent">
+            <summary> 
+            Required method for Designer support - do not modify 
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="T:Msile.SkinnableSplitContainer">
+            <summary>
+            A skinnable version of the SplitContainer.
+            </summary>
+        </member>
+        <member name="M:Msile.SkinnableSplitContainer.OnPaint(System.Windows.Forms.PaintEventArgs)">
+            <summary>
+            Overriden OnPaint method.
+            </summary>
+            <param name="e">Paint Event Arguments.</param>
+            <remarks>This override does not call the base method.</remarks>
+        </member>
+        <member name="M:Msile.SkinnableSplitContainer.OnMouseUp(System.Windows.Forms.MouseEventArgs)">
+            <summary>
+            Overriden OnMouseUp method.
+            </summary>
+            <param name="e">Mouse Event Arguments.</param>
+            <remarks>This method is intentionally blank to cancel the default behavior.</remarks>
+        </member>
+        <member name="M:Msile.SkinnableSplitContainer.OnMouseMove(System.Windows.Forms.MouseEventArgs)">
+            <summary>
+            Overriden OnMouseMove method.
+            </summary>
+            <param name="e">Mouse Event Arguments.</param>
+        </member>
+        <member name="M:Msile.SkinnableSplitContainer.GetSplitterHeadRectangle">
+            <summary>
+            Gets the rectangle of the splitter representing its "head". Intended for theming support.
+            </summary>
+            <returns>The "head" rectangle of the splitter.</returns>
+        </member>
+        <member name="M:Msile.SkinnableSplitContainer.GetSplitterBodyRectangle">
+            <summary>
+            Gets the rectangle of the splitter representing its "body". Intended for theming support.
+            </summary>
+            <returns>The "body" rectangle of the splitter.</returns>
+        </member>
+        <member name="M:Msile.SkinnableSplitContainer.GetSplitterTailRectangle">
+            <summary>
+            Gets the rectangle of the splitter representing its "tail". Intended for theming support.
+            </summary>
+            <returns>The "tail" rectangle of the splitter.</returns>
+        </member>
+        <member name="T:Msile.Constants">
+            <summary>
+            Holds common constants.
+            </summary>
+            <remarks>
+            Warnings about the naming of the constants in this class can be safely suppressed if they pertain to the Windows API.
+            For FxCop code analysis, right-click and "suppress message" in the "project suppression file" (GlobalSuppressions.cs).
+            For StyleCop, the SuppressMessage attribute will take care of it.
+            </remarks>
+        </member>
+        <member name="F:Msile.Constants.WS_EX_COMPOSITED">
+            <summary>
+            With this style turned on for your form, Windows does double-buffering on the form and all its child controls.
+            </summary>
+        </member>
+        <member name="T:Msile.Program">
+            <summary>
+            Container for the application's entry point.
+            </summary>
+        </member>
+        <member name="M:Msile.Program.Main">
+            <summary>
+            The main entry point for the application.
+            </summary>
+        </member>
+        <member name="T:Msile.Helpers">
+            <summary>
+            This class contains helpers.
+            </summary>
+            <remarks>
+            It is not good to have a lot of helpers. 
+            As soon as there are some helpers with related functionality, 
+            it is desireable to move them to a dedicated class.
+            </remarks>
+        </member>
+        <member name="M:Msile.Helpers.ThrowExceptionIfNull``1(``0)">
+            <summary>
+            Checks if a generic object is null, throws an exception if it is, and returns it if it's not.
+            </summary>
+            <typeparam name="T">The type of the object</typeparam>
+            <param name="input">The object to check.</param>
+            <remarks>
+            This is useful to bypass CA1062 in cases where you know it's not null, such as overriden control event handlers.
+            </remarks>
+            <returns>The unaltered input, if not null.</returns>
+        </member>
+    </members>
+</doc>
