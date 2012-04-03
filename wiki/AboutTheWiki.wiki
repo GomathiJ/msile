@@ -10,7 +10,7 @@ This page describes anything specific to the wiki.
 </td><td valign="top">
 == <font size="5">Recent Wiki Changes</font> ==
 
-<wiki:gadget url="http://msile.googlecode.com/svn/trunk/scripts/iframe-gadget.xml" up_url="http://msile.camilomm.x10.mx/revision-feed.php?limit=20" width="100%" height="150px" border="0" />
+<wiki:gadget url="http://msile.googlecode.com/svn/trunk/scripts/iframe-gadget.xml" up_url="http://msile.camilomm.x10.mx/revision-feed.php?limit=20&path=/wiki" width="100%" height="150px" border="0" />
 </td></tr></table>
 
 ----
