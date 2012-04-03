@@ -27,6 +27,6 @@ Do note however that the content (but not necessarily its formatting) must follo
 
 Have you found a mistake with the wiki?
 
-Please submit it as an [Issue]. Issues are relevant to everything covered by the project, including the wiki content.
+Please submit it as an [Issues Issue]. Issues are relevant to everything covered by the project, including the wiki content.
 
 You can also simply [Contact] a project member with a patch.
