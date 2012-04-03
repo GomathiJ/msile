@@ -24,3 +24,7 @@ Here you can find about how to work with the code.
 == [DevelopmentGuidelines Development Guidelines] ==
 
 Here you can find about the guidelines the code must follow.
+
+== [Compiling] ==
+
+Want to compile even in this pre-alpha state?
