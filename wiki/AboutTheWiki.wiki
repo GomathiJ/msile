@@ -7,7 +7,7 @@
 This page describes anything specific to the wiki.
 
 <wiki:toc />
-</td><td>
+</td><td valign="top">
 == <font size="5">Wiki Changelog</font> ==
 
 <wiki:gadget url="http://1o4.jp/google/module/slim-reader.xml" up_mfeed="http://code.google.com/feeds/p/msile/svnchanges/basic?path=/wiki/" width="100%" height="150px" border="0" />
