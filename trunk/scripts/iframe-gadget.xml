@@ -34,7 +34,10 @@
 		<div id="urlframe"></div>
 		
 		<script type="text/javascript">
-			var url = 'http://www.sankakucomplex.com/xyz'
+			// Get preferences
+			var prefs = new gadgets.Prefs();
+			var url = prefs.getString('url');
+			
 			var encodedurl = encodeURIComponent(url)
 			
 			// The following code is to check if the page exists beforehand.
