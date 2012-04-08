@@ -6,7 +6,7 @@
 I know the code on this wiki page doesn't look very neat. Using a table sucks. But I want to have columns! :(
 </wiki:comment>
 
-<table cellpadding="10px" width="100%"><thead><tr><td colspan="2">
+<table cellpadding="10px" width="85%"><thead><tr><td colspan="2">
 = Main Page =
 
 This is the main page of the `msile` project.
