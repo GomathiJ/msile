@@ -1,5 +1,6 @@
 #summary How to compile.
 #labels TODO,Developers
+#sidebar TableOfContents
 
 = Compiling =
 

@@ -1,5 +1,6 @@
 #summary Details what is the recommended development environment.
 #labels Developers
+#sidebar TableOfContents
 
 = Development Environment =
 

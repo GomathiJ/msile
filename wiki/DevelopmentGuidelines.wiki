@@ -1,5 +1,6 @@
 #summary Coding guidelines and standards.
 #labels Developers
+#sidebar TableOfContents
 
 = Development Guidelines =
 

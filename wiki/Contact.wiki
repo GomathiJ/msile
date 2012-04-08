@@ -1,5 +1,6 @@
 #summary Contact the authors.
 #labels EndUsers,Featured
+#sidebar TableOfContents
 
 = Contact the Authors =
 

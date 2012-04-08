@@ -1,5 +1,6 @@
 #summary StyleCop usage in this project.
 #labels Developers
+#sidebar TableOfContents
 
 = Using !StyleCop =
 

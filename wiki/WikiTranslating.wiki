@@ -1,5 +1,6 @@
 #summary Wiki translation information.
 #labels WikiDevelopers,TODO
+#sidebar TableOfContents
 
 = Wiki Translating =
 

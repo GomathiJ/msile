@@ -1,5 +1,6 @@
 #summary Changelog.
 #labels Developers,Featured
+#sidebar TableOfContents
 
 = Changelog =
 

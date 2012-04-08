@@ -1,5 +1,6 @@
 #summary About issues, and how to submit one.
 #labels TODO,Developers,WikiDevelopers,EndUsers
+#sidebar TableOfContents
 
 = About Issues =
 

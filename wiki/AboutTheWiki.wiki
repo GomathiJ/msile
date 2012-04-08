@@ -1,5 +1,6 @@
 #summary Information about the Wiki itself.
 #labels WikiDevelopers
+#sidebar TableOfContents
 
 <table width="100%"><tr><td width="320px">
 = About The Wiki =

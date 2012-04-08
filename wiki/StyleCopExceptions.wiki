@@ -1,5 +1,6 @@
 #summary Exceptions to StyleCop's rules.
 #labels Developers
+#sidebar TableOfContents
 
 = !StyleCop Exceptions =
 

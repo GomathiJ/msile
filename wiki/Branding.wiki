@@ -1,5 +1,6 @@
 #summary Branding information.
 #labels EndUsers,Developers
+#sidebar TableOfContents
 
 = Branding =
 

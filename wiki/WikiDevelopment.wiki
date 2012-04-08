@@ -1,5 +1,6 @@
 #summary Describes development of the wiki.
 #labels WikiDevelopers
+#sidebar TableOfContents
 
 = Wiki Development =
 

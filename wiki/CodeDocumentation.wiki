@@ -1,5 +1,6 @@
 #summary How to build or use the code documentation.
 #labels Developers,TODO
+#sidebar TableOfContents
 
 = Code Documentation =
 

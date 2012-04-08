@@ -1,5 +1,6 @@
 #summary What will happen in the future.
 #labels Featured,Developers
+#sidebar TableOfContents
 
 = Roadmap =
 

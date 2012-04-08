@@ -1,5 +1,6 @@
 #summary Exceptions to FxCop's rules.
 #labels Developers
+#sidebar TableOfContents
 
 = !FxCop Exceptions =
 

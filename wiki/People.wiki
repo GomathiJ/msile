@@ -1,5 +1,6 @@
 #summary The people who make this project.
 #labels EndUsers
+#sidebar TableOfContents
 
 = People Behind the Project =
 

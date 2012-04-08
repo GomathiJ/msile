@@ -1,5 +1,6 @@
 #summary Main page for developers.
 #labels Featured,Developers
+#sidebar TableOfContents
 
 = Developers =
 

@@ -1,5 +1,6 @@
 #summary Lists commit hooks used and what to do manually.
 #labels Developers
+#sidebar TableOfContents
 
 <table width="100%"><tr><td width="48%" valign="top">
 = Commit Hooks =

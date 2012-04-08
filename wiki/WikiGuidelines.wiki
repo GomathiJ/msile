@@ -1,5 +1,6 @@
 #summary Wiki guidelines and conventions.
 #labels WikiDevelopers
+#sidebar TableOfContents
 
 = Wiki Guidelines and Conventions =
 
