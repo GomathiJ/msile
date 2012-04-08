@@ -2,7 +2,6 @@
 #labels TOCs
 
   * *[MainPage Main Page]*
-----
   * *[Developers Developers]*
     * [DevelopmentEnvironment Development Environment]
       * [DevelopmentEnvironment#FxCop FxCop]
